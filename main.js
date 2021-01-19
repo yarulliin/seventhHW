@@ -68,12 +68,12 @@ function checkInput(arg, name) {
     }
 
     if (name == 'color') {
-        if (typeof arg == 'string' && arg.length) {
+        if (arg.length) {
             return arg;
         }
         else return false;
     }
-    
+
     for (el of arg) {
         if (!el.value.length) {
             return false;
