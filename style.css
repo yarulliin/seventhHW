@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+}
+
+.btn {
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+#form {
+    width: 200px;
+}
+
+input {
+    width: 150px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
